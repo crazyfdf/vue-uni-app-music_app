@@ -1,0 +1,40 @@
+{
+  "pages": [{
+      "path": "pages/index",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "pages/player/Player",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/musicSheet/MusicSheet",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+
+    {
+      "path": "pages/index/musicVideo/MusicVideo",
+      "style": {
+        "navigationBarTitleText": "视频"
+      }
+    },
+    {
+      "path": "pages/index/cloudVillage/CloudVillage",
+      "style": {
+        "navigationBarTitleText": "云村"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  }
+}
